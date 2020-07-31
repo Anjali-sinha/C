@@ -2,13 +2,13 @@
 int main()
 {
     int n;
+    scanf("%d",&n);
     int ar[n];
     int i;
     int sum=0;
-    scanf("%d\n",&n);
     for(i=0;i<n;i++)
     {
-        scanf("&lli\n",&ar[i]);
+        scanf("%lli",&ar[i]);
         sum+=ar[i];
     }
     printf("%lli\n",sum);
