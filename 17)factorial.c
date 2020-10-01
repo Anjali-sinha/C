@@ -1,17 +1,17 @@
 #include<stdio.h>
 int factorial(int);
-main()
+void main()
 {
     int num,result;
     printf("Enter the number :\n");
-    scanf("%d",&num);
+    scanf("%d", &num);
     if(num<0)
     {
-        printf("It is not possible\n");
+        printf("It is not possible\n"); //not posible beacuse negative value not posible in factorial
     }
     else
     {
-        result=factorial(num);
+        result = factorial(num);
         printf("The factorial of %d is: %d\n",num,result);
     }
 }
@@ -19,11 +19,11 @@ int factorial(int num)
 {
     if(num==0||num==1)
     {
-        return 1;
+        return 1; 
     }
     else
     {
-        return (num*factorial(num-1));
+        return (num*factorial(num-1)); 
     }
-
+  
 }
