@@ -1,5 +1,5 @@
 #include<stdio.h>
-main()
+int main()
 {
     int n,i,j;
     printf("Enter the number:\n");
@@ -18,5 +18,5 @@ main()
         printf("\n");
     }
     printf("\n\n\n");
-
+return o;
 }
